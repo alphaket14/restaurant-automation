@@ -1,0 +1,26 @@
+.section-cards {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 12px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 30px;
+}
+@media (max-width: 600px) {
+  .section-cards {
+    margin: 20px auto;
+  }
+}
+.section-name {
+  width: 100%;
+  padding: 10px;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}

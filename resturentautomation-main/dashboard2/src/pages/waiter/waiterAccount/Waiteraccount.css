@@ -1,0 +1,174 @@
+.account_container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #212b36;
+  z-index: 100;
+  opacity: 1;
+  color: white;
+  border: 2px solid rgba(0, 0, 0, 0.895);
+}
+.account_shell {
+  width: 70%;
+  height: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.account_shell h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-bottom: 1rem;
+}
+.basic_details {
+  background-color: #191f32;
+  border-radius: 12px;
+  margin-top: 2rem;
+  padding: 15px;
+  margin-bottom: 1rem;
+}
+.basic_details div {
+  background-color: #20273f;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.submit {
+  margin-top: 2rem;
+  width: 8rem;
+  font-size: 0.95rem;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(5, 122, 54);
+  cursor: pointer;
+  border-radius: 12px;
+  transition: 0.2s all;
+}
+.submit:hover {
+  background-color: rgb(1, 84, 19);
+}
+
+.billing-container {
+  background-color: #191a19;
+  border-radius: 12px;
+  margin-top: 2rem;
+  padding: 15px;
+}
+
+.card-container {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.plan-card {
+  border: 1px solid rgb(51, 58, 153);
+  width: 12rem;
+  height: 10rem;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: rgb(16, 16, 16);
+}
+.plan-card div {
+  margin-bottom: 4rem;
+  font-weight: 600;
+}
+.plan-card:nth-of-type(2) {
+  width: 14rem;
+  height: 12rem;
+  box-shadow: 0 0 30px rgb(37, 37, 37);
+}
+.plan-card span {
+  margin-bottom: 2rem;
+  color: rgb(47, 255, 71);
+  font-weight: bold;
+}
+
+.security-container {
+  background-color: #171e27;
+  border-radius: 12px;
+  margin-top: 2rem;
+  padding: 15px;
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.delete-acc {
+  box-shadow: inset 0 0 0 1px rgba(255, 5, 72, 0.769);
+  width: 10rem;
+  padding: 10px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: rgb(17, 16, 15);
+  transition: 0.2s all;
+  cursor: pointer;
+}
+.delete-acc:hover {
+  background-color: rgba(255, 5, 72, 0.769);
+}
+
+.form input {
+  background-color: rgb(26, 25, 25);
+  border-radius: 12px;
+}
+.submit {
+  width: 12rem;
+}
+
+.updateform {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  gap: 1rem;
+}
+.updateform input {
+  width: 100%;
+  height: 3rem;
+  background-color: #000000;
+  color: white;
+  border: none;
+  transition: 0.2s all;
+  padding: 10px;
+}
+
+.updateform input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+}
+
+.profilebox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 10px;
+}
+.profilefield {
+  padding: 10px;
+}
+.profilefield span {
+  font-size: small;
+  margin: 4px;
+}
+
+.profilefield div {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #171e27;
+}
+
+.inputboxsecurity {
+  width: 100%;
+  background-color: #171e27;
+}
